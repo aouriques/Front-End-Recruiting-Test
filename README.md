@@ -36,15 +36,7 @@
 * The user must be able to edit the information of an existing task.
 * If the task doesn't exist, then the system must display the following message: "Are you a hacker or something? The task you were trying to edit doesn't exist.".
 
-**5) As a guest user, I want to prioritize the tasks of my TO DO list, so that I can organize my work and always deliver the most valuable things first.**
-
-**ACCEPTANCE CRITERIA:**
-* The user interface must be developed using AngularJS and its best practices.
-* The storage engine must be the browser's Local Storage.
-* The user must be able to reorder the list based on his prioritization criteria.
-* The user must be able to move tasks up and down in order to organize the list.
-
-**6) As a guest user, I want to change a resolution of a task, so that I can set tasks as done without removing them from the list or change them back to active in case they weren't done yet.**
+**5) As a guest user, I want to change a resolution of a task, so that I can set tasks as done without removing them from the list or change them back to active in case they weren't done yet.**
 
 **ACCEPTANCE CRITERIA:**
 * The user interface must be developed using AngularJS and its best practices.
@@ -60,11 +52,13 @@
       "uuid": "",
       "type": "",
       "content": "",
-      "sort_order" : 0,
       "done" : true|false,
       "date_created": ""
    }
 ```
+
+#### Tip:
+* The use of dependency management tools is highly recommended for SPAs.
 
 ## (2) REFACTORING AN EXISTING CODE (User interface only. No web service/online API needed.)
 
