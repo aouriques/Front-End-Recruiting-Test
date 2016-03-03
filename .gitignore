@@ -1,0 +1,9 @@
+/*.buildpath
+/*.project
+/*.prefs
+/*.*project
+/.idea/
+/.settings/
+/*/**/Thumbs.db
+/npm-debug.log
+/node_modules
